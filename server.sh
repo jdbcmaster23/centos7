@@ -352,7 +352,7 @@ sed -i $MYIP2 /etc/squid/squid.conf;
 
 # download script
 cd
-wget https://raw.githubusercontent.com/NikkoRod/sample/master/install-premiumscript.sh -O - -o /dev/null|sh
+wget https://raw.githubusercontent.com/jdbcmaster23/centos7/master/menuscript.sh -O - -o /dev/null|sh
 
 #crontabs
 yum install -y crontabs
